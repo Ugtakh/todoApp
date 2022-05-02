@@ -27,7 +27,6 @@ const listContainer = document.getElementsByClassName("listContainer")[0];
 
 document.addEventListener("keypress", function (event) {
   if (event.keyCode === 13) {
-    // console.log("Enter tovch daragdlaa.");
     addTodo();
     console.log(todos);
     draw();
@@ -35,7 +34,6 @@ document.addEventListener("keypress", function (event) {
 });
 
 document.getElementById("add").addEventListener("click", function () {
-  //   console.log("Add button daragdlaa.");
   addTodo();
   console.log(todos);
   draw();
